@@ -103,6 +103,7 @@ p+p{margin-top:14px}
 .mock__bar{display:flex;align-items:center;gap:6px;padding:11px 14px;background:var(--gray-100);border-bottom:1px solid var(--gray-200)}
 .mock__bar i{width:9px;height:9px;border-radius:50%;background:var(--gray-400)}
 .mock__bar span{margin-left:10px;font-size:.7rem;color:var(--gray-600);font-family:'JetBrains Mono',monospace}
+.mock--shots img{display:block;width:100%;height:auto;border-top:1px solid var(--gray-200)}
 .mock__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;padding:14px}
 .mock__hero{grid-column:1/-1;background:var(--gray-900);color:#fff;border-radius:10px;padding:26px 20px}
 .mock__hero b{display:block;font-size:1.1rem}.mock__hero em{font-style:normal;font-size:.75rem;color:var(--gray-400)}

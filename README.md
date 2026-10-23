@@ -1,19 +1,53 @@
-# Mauricio Saavedra – Personal Portfolio
+# Mauricio Saavedra – Portfolio
 
-Static site (HTML + CSS + JS). No installs needed.
+Personal portfolio of **Mauricio Saavedra Ramírez**, Full Stack Developer and Systems Engineering student (Universidad Libre, Cali, Colombia).
 
-## Run locally in VS Code
-1. Open this folder in VS Code (`File > Open Folder`).
+Built with plain **HTML, CSS and JavaScript** – no frameworks, no build step, no installs.
+
+## About me
+
+Full Stack Developer with almost a year of professional experience migrating legacy systems to modern architectures (Angular + .NET / ABP), automating processes with N8N, and shipping real products end to end.
+
+**Main stack:** Angular · React · Next.js · TypeScript · C# / .NET · SQL Server · PostgreSQL · Supabase · N8N
+
+## Featured projects
+
+| Project | Description |
+| --- | --- |
+| **Lucky Fight** | Online raffle ticket platform for a real client: PostgreSQL/Supabase, Wompi payments, Next.js API, security hardening and production deployment. |
+| **Vende Tu Nave** | Vehicle marketplace: listings, search and filtering, responsive design. |
+| **AutoPremium** | Premium car dealership website (React, TypeScript, Node.js) with landing page, vehicle catalog and WhatsApp contact. |
+| **N8N Automation** | Internal workflows and process automation connecting APIs, databases and chatbots. |
+
+## Project structure
+
+```
+portfolio/
+├── index.html      # Page content and sections
+├── styles.css      # All styles (responsive)
+├── script.js       # Menu, scroll effects, reveal animations
+├── README.md
+└── assets/
+    ├── lucky-fight.png
+    ├── autopremium-hero.jpg
+    ├── autopremium-catalog.jpg
+    └── Mauricio-Saavedra-CV.pdf
+```
+
+## Run locally
+
+1. Open the folder in VS Code (`File > Open Folder`).
 2. Install the **Live Server** extension.
 3. Right-click `index.html` > **Open with Live Server**.
 
-(You can also just double-click `index.html`.)
+You can also just double-click `index.html`.
 
-## Things to add
-- `assets/lucky-fight.png` – your Lucky Fight screenshot (phone mockup in Projects).
-- `assets/Mauricio-Saavedra-CV.pdf` – your CV, for the "Download CV" button.
-- Add your LinkedIn / GitHub links in the Contact section of `index.html`.
-- Edit the "Vende Tu Nave" text in `index.html` with the real features of your site.
+## Deploy for free
 
-## Publish for free
-Upload the folder to GitHub and enable **GitHub Pages**, or drag it into Netlify / Vercel.
+Enable **GitHub Pages** on the repository (`Settings > Pages`, branch `main`, folder `/root`), or drag the folder into Netlify / Vercel.
+
+## Contact
+
+- Email: saavedraramirezmauricio@gmail.com
+- Phone / WhatsApp: +57 316 494 3311
+- LinkedIn: https://www.linkedin.com/in/mauricio-saavedra-ramirez-113b83361/
