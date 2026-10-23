@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mauricio Saavedra | Full Stack Developer</title>
+  <meta name="description" content="Mauricio Saavedra Ramírez – Full Stack Developer and Systems Engineering student. Angular, .NET, Next.js, Supabase and N8N automation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#home" class="logo">MS<span>.</span></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact" class="btn btn--small">Contact</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Open menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="container hero__inner">
+      <div class="hero__text reveal">
+        <p class="eyebrow">Full Stack Developer · Systems Engineering</p>
+        <h1>Hi, I'm <span class="grad">Mauricio Saavedra</span>.<br />I build web products from database to deployment.</h1>
+        <p class="lead">Final-year Systems Engineering student with almost a year of professional experience migrating legacy systems to modern architectures, automating processes with N8N, and shipping real products for real clients.</p>
+        <div class="hero__cta">
+          <a href="#projects" class="btn">View my work</a>
+          <a href="assets/Mauricio-Saavedra-CV.pdf" class="btn btn--ghost" download>Download CV</a>
+        </div>
+        <ul class="hero__stats">
+          <li><strong>~1 yr</strong><span>Professional experience</span></li>
+          <li><strong>25+</strong><span>Screens standardized</span></li>
+          <li><strong>3</strong><span>Products shipped end to end</span></li>
+        </ul>
+      </div>
+      <div class="hero__card reveal">
+        <div class="code">
+          <div class="code__bar"><i></i><i></i><i></i><span>mauricio.ts</span></div>
+<pre><code><span class="c">// who I am</span>
+<span class="k">const</span> <span class="v">mauricio</span> = {
+  role: <span class="s">"Full Stack Developer"</span>,
+  frontend: [<span class="s">"Angular"</span>, <span class="s">"React"</span>, <span class="s">"Next.js"</span>],
+  backend: [<span class="s">"C# / .NET"</span>, <span class="s">"ABP"</span>, <span class="s">"Supabase"</span>],
+  database: [<span class="s">"SQL Server"</span>, <span class="s">"PostgreSQL"</span>],
+  automation: <span class="s">"N8N"</span>,
+  languages: [<span class="s">"Spanish"</span>, <span class="s">"English"</span>],
+  openToWork: <span class="n">true</span>
+};</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container grid-2">
+      <div class="reveal">
+        <p class="eyebrow">About me</p>
+        <h2>Organized, detail-oriented and end-to-end.</h2>
+      </div>
+      <div class="reveal">
+        <p>I'm a Systems Engineering student at Universidad Libre, about to graduate, working as a Full Stack Developer. I'm comfortable across the whole stack: frontend, backend and database, always with a focus on user experience.</p>
+        <p>At work I help move legacy systems to modern architectures with Angular and .NET. On my own, I design, build and deploy complete products, from the database schema and payments to security and production hosting.</p>
+        <p>I'm diligent, adaptable and I like solving problems from start to finish.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section section--dark" id="experience">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Professional experience</p>
+        <h2>Where I've been building</h2>
+      </div>
+
+      <article class="job reveal">
+        <div class="job__meta">
+          <span class="chip">Almost 1 year</span>
+          <span class="muted">Cali, Colombia</span>
+        </div>
+        <div class="job__body">
+          <h3>Full Stack Developer</h3>
+          <p class="company">Global BI SAS</p>
+          <p class="job__intro">Legacy-to-modern migration project (Angular + .NET with ABP Framework) with multicompany support.</p>
+          <ul class="ticks">
+            <li><b>Frontend:</b> developed and maintained web apps with Angular, TypeScript and PrimeNG.</li>
+            <li><b>UI standardization:</b> unified 25+ screens, including action columns and configurable column selectors saved in localStorage; fixed strict-mode TypeScript errors and text overflow issues.</li>
+            <li><b>End-to-end CRUD modules:</b> backend in C# / ABP (entities, AppServices, DTOs, AutoMapper, EF Core migrations) and frontend modals with cascading dropdowns.</li>
+            <li><b>Databases:</b> wrote and optimized complex SQL queries and scripts in SQL Server; contributed to relational modeling (ER diagrams, keys, normalization).</li>
+            <li><b>Automation:</b> built workflows and internal process automations with N8N.</li>
+            <li><b>Integration:</b> regenerated service proxies with NSwag, consumed REST APIs and localized the app to Spanish with ABP XML files.</li>
+            <li><b>Team workflow:</b> Git branching and conflict resolution under agile methodologies; hands-on exposure to Kubernetes, Helm and Spring Boot microservices.</li>
+          </ul>
+          <div class="tags"><span>Angular</span><span>TypeScript</span><span>PrimeNG</span><span>C#</span><span>.NET</span><span>ABP</span><span>SQL Server</span><span>EF Core</span><span>N8N</span><span>Git</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Featured projects</p>
+        <h2>Products I designed and shipped</h2>
+      </div>
+
+      <!-- Lucky Fight -->
+      <article class="project reveal">
+        <div class="project__media">
+          <div class="phone">
+            <img src="assets/lucky-fight.png" alt="Lucky Fight raffle platform on mobile" onerror="this.parentElement.classList.add('no-img'); this.remove();" />
+            <div class="phone__fallback">Drop your screenshot at<br /><code>assets/lucky-fight.png</code></div>
+          </div>
+        </div>
+        <div class="project__body">
+          <p class="eyebrow">Freelance · Real client · Built from scratch to production</p>
+          <h3>Lucky Fight – Online Raffle Ticket Platform</h3>
+          <p>A complete raffle sales platform: database, payments, notifications, security and deployment, all built from zero and live in production.</p>
+          <ul class="ticks">
+            <li>Relational schema in PostgreSQL (Supabase) with atomic SQL functions (<code>FOR UPDATE SKIP LOCKED</code>) for race-condition-free inventory reservation and unique random number generation.</li>
+            <li>Row Level Security and security-definer functions: the public only sees aggregated data and the service key stays on the backend.</li>
+            <li>Wompi payments: integrity signature for hosted checkout, SHA-256 webhook validation, amount verification and idempotency against duplicate events.</li>
+            <li>Next.js (App Router) API routes with server-side validation and IP rate limiting; Vercel Cron Jobs release expired reservations.</li>
+            <li>Transactional emails with Resend (verified domain, SPF/DKIM); Vercel + GitHub CI, Cloudflare DNS and hardened HTTP headers (CSP, HSTS, X-Frame-Options).</li>
+            <li>Responsive Tailwind UI with an infinite-scroll gallery, validated forms and an auth-protected admin panel.</li>
+          </ul>
+          <div class="tags"><span>Next.js</span><span>Supabase</span><span>PostgreSQL</span><span>Wompi</span><span>Tailwind</span><span>Resend</span><span>Vercel</span><span>Cloudflare</span></div>
+        </div>
+      </article>
+
+      <!-- Vende tu Nave -->
+      <article class="project project--rev reveal">
+        <div class="project__media">
+          <div class="mock">
+            <div class="mock__bar"><i></i><i></i><i></i><span>vendetunave</span></div>
+            <div class="mock__grid">
+              <div class="mock__hero"><b>Buy &amp; sell your car</b><em>Search · Compare · Publish</em></div>
+              <div class="mock__card"><div></div><p></p><p class="s"></p></div>
+              <div class="mock__card"><div></div><p></p><p class="s"></p></div>
+              <div class="mock__card"><div></div><p></p><p class="s"></p></div>
+            </div>
+          </div>
+        </div>
+        <div class="project__body">
+          <p class="eyebrow">Personal project · Full website</p>
+          <h3>Vende Tu Nave – Vehicle Marketplace</h3>
+          <p>A complete car buying and selling website: listings, search and a clean, trustworthy experience for buyers and sellers.</p>
+          <ul class="ticks">
+            <li>Designed the full site end to end: structure, UI and user flows.</li>
+            <li>Vehicle listing pages with images, key details and contact flow.</li>
+            <li>Search and filtering to help buyers find the right car faster.</li>
+            <li>Responsive design that works on phone, tablet and desktop.</li>
+          </ul>
+          <div class="tags"><span>Full Stack</span><span>UI / UX</span><span>Responsive</span><span>Database design</span></div>
+        </div>
+      </article>
+
+      <!-- N8N -->
+      <article class="project reveal">
+        <div class="project__media">
+          <div class="flow">
+            <div class="node">Trigger</div><span class="arrow"></span>
+            <div class="node">Process data</div><span class="arrow"></span>
+            <div class="node">Logic / AI</div><span class="arrow"></span>
+            <div class="node node--dark">Action</div>
+          </div>
+        </div>
+        <div class="project__body">
+          <p class="eyebrow">Professional · Automation</p>
+          <h3>Process Automation with N8N</h3>
+          <p>Automated internal workflows and business processes, cutting manual work and connecting systems together.</p>
+          <ul class="ticks">
+            <li>Designed and deployed N8N workflows that connect APIs, databases and notifications.</li>
+            <li>Built chatbots and conversational workflow integrations.</li>
+            <li>Turned repetitive manual tasks into reliable automatic processes.</li>
+          </ul>
+          <div class="tags"><span>N8N</span><span>REST APIs</span><span>Chatbots</span><span>Workflows</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section--gray" id="skills">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Skills</p>
+        <h2>Tools I work with</h2>
+      </div>
+      <div class="skills reveal">
+        <div class="skill"><h4>Frontend</h4><p>Angular · React · Next.js · TypeScript · JavaScript · HTML5 · CSS3 · Tailwind</p></div>
+        <div class="skill"><h4>Backend</h4><p>C# · .NET · ABP Framework · Python · REST APIs · NSwag</p></div>
+        <div class="skill"><h4>Databases</h4><p>SQL Server · PostgreSQL · Supabase · EF Core · Advanced SQL · ER modeling</p></div>
+        <div class="skill"><h4>Automation &amp; AI</h4><p>N8N · Chatbots · Conversational workflows</p></div>
+        <div class="skill"><h4>DevOps &amp; Tools</h4><p>Git · Vercel · GitHub CI · Cloudflare · Kubernetes &amp; Helm (practical)</p></div>
+        <div class="skill"><h4>Security</h4><p>Row Level Security · Webhook validation · Rate limiting · HTTP header hardening</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="container grid-2">
+      <div class="reveal">
+        <p class="eyebrow">Education</p>
+        <h2>Learning, always.</h2>
+        <div class="edu">
+          <div><h4>Systems Engineering</h4><p>Universidad Libre · Final year</p></div>
+          <div><h4>English</h4><p>Centro Colombo Americano · 4+ years · Advanced</p></div>
+          <div><h4>Languages</h4><p>Spanish (Native) · English (Advanced)</p></div>
+        </div>
+      </div>
+      <div class="reveal">
+        <p class="eyebrow">Courses &amp; certifications</p>
+        <ul class="certs">
+          <li><b>IBM SkillsBuild</b> · AI Fundamentals · Artificial Intelligence Fundamentals</li>
+          <li><b>Cisco</b> · Data Analytics Essentials</li>
+          <li><b>Cisco</b> · Data Science Essentials with Python · Introduction to Data Science</li>
+          <li><b>Cisco</b> · Introduction to Modern AI</li>
+          <li><b>Cisco</b> · Introduction to Cybersecurity</li>
+          <li><b>Cisco</b> · Networking Basics · Network Technician Career Path</li>
+          <li><b>Cisco</b> · Python Essentials 1 &amp; 2</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--dark contact" id="contact">
+    <div class="container reveal">
+      <p class="eyebrow">Contact</p>
+      <h2>Let's build something together.</h2>
+      <p class="lead">I'm about to graduate and open to full stack opportunities. Send me a message.</p>
+      <div class="hero__cta">
+        <a class="btn btn--light" href="mailto:saavedraramirezmauricio@gmail.com">saavedraramirezmauricio@gmail.com</a>
+        <a class="btn btn--ghost-light" href="tel:+573164943311">+57 316 494 3311</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Mauricio Saavedra Ramírez</span>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
